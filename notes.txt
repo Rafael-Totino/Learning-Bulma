@@ -1,0 +1,22 @@
+-- Components:
+    são componentes prontos no Bulma, com html e CSS ja modificados. Caixas de mensagens, navBars,etc...
+
+-- Barra de navegação e Footer:
+    barras de navegação ficam dentro do <body> dentro de um <header>.
+    parte de baixo do site, normalmente assinaturas e etc. Dentro de <footer>
+
+-- Responsividade 
+    No exemplo ele engloba 4 <div class="column"> numa <div class="columns">
+    e tudo isso num container <div class="container"> para poder manuzear todos separadamente.
+
+    <div class="column is-full"> faz a coluna ocupar todo o tamanho da tela na horizontal.
+    e existem varios: is-half,etc.. Ou usar com numeros: is-2, is-4, is-6, 
+    levando em conta que a tela é sempre "dividida" em 12 partes iguais.
+
+    "is-offset-2" faz a coluna começar da parte 2/12. 
+
+    "is-hidden-mobile" faz aquela coluna,imagem,etc não aparecer quando for Mobile
+
+    "is-12-desktop is-4-mobile" muda o comportamento conforme o device muda
+
+    
